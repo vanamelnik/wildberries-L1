@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
-
 // Задание 8
 // Дана переменная int64. Разработать программу которая устанавливает i-й бит в 1 или 0.
+
+import "fmt"
 
 // setBit устанавливает i-й бит в числе num в значение set(true = 1, false = 0)
 func setBit(num uint64, i int, set bool) uint64 {
