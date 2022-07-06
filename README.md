@@ -1,8 +1,9 @@
 # Wildberries задание L1
 
 ### TODO:
-task06
 
+- task06
+- task12
 
 ### Устные вопросы:
 
