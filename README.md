@@ -4,6 +4,8 @@
 
 - task06
 - task12
+- task16
+- task17
 - task21
 - task25
 

@@ -1,13 +1,13 @@
 package main
 
+// Задание 20
+// Разработать программу, которая переворачивает слова в строке.
+// Пример: «snow dog sun — sun dog snow».
+
 import (
 	"fmt"
 	"strings"
 )
-
-// Задание 20
-// Разработать программу, которая переворачивает слова в строке.
-// Пример: «snow dog sun — sun dog snow».
 
 // reverseWords меняет порядок слов в строке на противоположный.
 func reverseWords(s string) string {
