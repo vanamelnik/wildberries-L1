@@ -6,7 +6,6 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"sort" // используется для проверки в тесте
 	"time"
 )
 
@@ -107,7 +106,7 @@ func testSort(numOfTests, arrayLength int, sortFn func([]int), fillFn func() int
 		backupArr := make([]int, len(arr))
 		copy(backupArr, arr)
 		quickSort(arr)
-		if !sort.IntsAreSorted(arr) {
+		if !isSorted(arr) {
 			fmt.Printf("FAIL\n%v ---> %v\n", backupArr, arr)
 		}
 	}
